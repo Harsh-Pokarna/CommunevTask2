@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/containerCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:backgroundTint="#201F23"
+        app:cardCornerRadius="15dp"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title: "
+                    android:textColor="@color/white"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="5dp"/>
+                <TextView
+                    android:id="@+id/titleOfPerson"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="5dp"
+                    android:text="Mr"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Name: "
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="5dp"/>
+                <TextView
+                    android:id="@+id/firstNameOfPerson"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:text="Josepha"/>
+                <TextView
+                    android:id="@+id/lastNameOfPerson"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="3dp"
+                    android:layout_marginVertical="5dp"
+                    android:text="Lopez"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Comunev Task2 Java"
